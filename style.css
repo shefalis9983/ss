@@ -1,0 +1,471 @@
+      body  {
+				margin: 0px;
+				margin-left: 0px;
+				margin-right: 0px;
+			}
+			
+			ul {
+				background: rgb(1, 8, 22);
+				padding: 20px;
+			}
+			ul li {
+				display: inline-block;
+				list-style-type: none;
+				padding: 9px;
+				margin-bottom: -10px;
+				margin-top: 10px;
+			}
+            li a
+		    {
+				text-decoration: solid;
+				text-transform: uppercase;
+				font-size: 25px;
+				color: rgb(214, 234, 248);
+				position: relative;
+	        }
+			li :hover
+		    {
+				background: white;
+				color:darkred;
+			}
+			#image img
+			{
+				border-radius: 1500px;
+				height: 90px;
+				width: 130px;
+				margin-right: 1400px;
+				margin-top: -65px;
+				margin-bottom: -35px;
+			}
+			.image-container {
+				width: 400px;
+				height: 300px;
+			}
+			
+			.animated-image {
+				width: 30%;
+				height: 80%;
+				animation: bounce 5s infinite ease-in-out;
+				border-radius: 1000px;
+				margin-top:  40px;
+				margin-left: 30px;
+				border: 10px solid rgb(32, 74, 87);
+			}
+            .animated-image:hover
+			{
+				border: 15px solid rgb(246, 176, 91);
+				
+			}
+			
+			
+			#name h1
+			{
+				margin-right: 1100px;
+				color: #d6eaf8 ;
+				margin-top: -40px;
+			}
+			.home
+			{
+				background:url(1.jpg)no-repeat;
+				height: 700px;
+				margin-top: -15px;
+				width: 100%;
+				position: relative;
+			}
+
+			#home-content h1
+			{
+				margin-left: 610px;
+				margin-top: -500px;
+				font-size: 70px;
+				font-style: italic;
+			}
+		    .animation 
+			{
+				font-size: 3rem;
+				font-weight: bold;
+				display:flex;
+				position: relative;
+				height: 3rem;
+				color: rgb(21, 67, 96);
+				align-items: left;
+				overflow: hidden;
+				margin-left: 700px;
+				margin-top: -40px;
+				align-items: baseline;
+  
+			}
+			.word 
+			{
+				position: absolute;
+				opacity: 0;
+				animation: wordAnimation 6s infinite;
+				margin-inline-start: 10px;
+		    }
+			.word:nth-child(1)
+		    {
+				animation-delay: 0s;
+				
+			}
+			  
+			
+			  
+			  @keyframes wordAnimation {
+				20% {
+				  opacity: 0;
+				  transform: translateY(20px);
+				}
+				25% {
+				  opacity: 1;
+				  transform: translateX(20PX);
+				}
+				50% {
+				  opacity: 2;
+				  transform: translateX(30px);
+				}
+				100% {
+				  opacity: 3;
+				  transform: translateY(5x);
+				}
+			  }
+			  
+			#home-cont h3
+			{
+				margin-left: 795px;
+				font-size: 35px;
+				margin-top: 50px;
+			}
+			
+			
+			.about
+			{
+				background:rgb(164, 208, 239) ;
+				height: 770px;
+				margin-top: -30px;
+				margin-bottom: -90px;
+				
+			}
+			.about-container button
+			{
+				font-size: 40px;
+				margin-left: 650px;
+				color: rgb(250, 247, 247);
+				background-color:rgb(46, 64, 83);
+				margin-top :80px;
+				border-radius: 20px;
+			}
+            #image2 img
+			{
+				margin-left: 850px;
+				margin-top: 60px;
+				border-radius: 10px;
+			}
+			.shadding
+			{
+				width: 640px;
+				height: 550px;
+				box-shadow: 20px 20px 10px;
+				color: rgb(255, 150, 14);
+			}
+			
+			#about-myself h2
+			{
+				margin-top: -480px;
+				margin-left: 880px;
+				font-size: 27px;
+				margin-right: 50px;
+			}
+			#about-myself h3
+			{
+				margin-top: 10px;
+				margin-left: 950px;
+				font-size: 20px;
+				margin-right: 70px;
+				font-family:monospace;
+			}
+			
+			
+			#photos img
+			{
+				border-radius: 10px;
+				margin-top: -550px;
+				margin-left: 10px;
+			}
+			#photos h1
+			{
+				margin-top:-515px;
+				margin-left: 300px;
+				font-size: 35px;
+				font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+				font-style: italic;
+				
+			}
+			#photo1 img
+			{
+			    height: 350px;
+				width: 230px;	
+				margin-top:10px;
+				transition: transform 0.5s;
+			}
+			#photo1:hover img
+			{
+				border:10px solid black;
+				transform: scale(1.1);
+			}
+			#photo2 img
+			{
+				margin-top: -350px;
+				height: 350px;
+				width: 250px;
+				border-radius: 10px;
+				margin-left: 260px;
+				transition: transform 0.5s;
+			}
+			#photo2:hover img
+			{
+				border:10px solid black;
+				transform: scale(1.1);
+			}
+			#photo3 img
+			{
+				margin-top: -350px;
+				height: 350px;
+				width: 230px;
+				border-radius: 10px;
+				margin-left: 530px;
+				transition: transform 0.5s;
+            }
+			#photo3:hover img
+			{
+				border:10px solid black;
+				transform: scale(1.1);
+			}
+			.shine
+			{
+				width: 770px;
+				height: 550px;
+				box-shadow: 10px 20px 10px;
+				color: rgb(255, 150, 14);
+				border-radius: 10px solid;
+			}
+			.hobbies-section {
+				text-align: center;
+				padding: 10px 1px;
+			}
+			
+			.hobbies-section button 
+			{
+				font-size: 40px;
+				color: rgb(250, 247, 247);
+				background-color:rgb(46, 64, 83);
+				margin-top :110px;
+				border-radius: 20px;
+				border: 2px solid black;
+			}
+			
+			.hobby-cards {
+				display: flex;
+				justify-content: center;
+				gap: 200px;
+				margin-top: 70px;
+			}
+			
+			.hobby-card {
+				background-color: #fff;
+				border: 3px solid #525050;
+				border-radius: 5px;
+				box-shadow: 10px 10px 10px black;
+				text-align: center;
+				width: 350px;
+				height: 400px;
+				transition: transform 0.3s, box-shadow 0.3s;
+			}
+			.hobby-card:hover {
+				transform: translateY(-10px);
+				box-shadow: 10px 8px 16px black;
+				background-color: rgb(183, 209, 249);
+			}
+			
+			.hobby-card img {
+				width: 100%;
+				height: 300px;
+				object-fit: cover;
+				border-bottom: 1px solid #ddd;
+				border-radius: 5px 5px 0 0;
+			}
+			
+			.hobby-card p {
+				font-size: 28px;
+				font-weight: bold;
+				color: #050202;
+				padding: 10px;
+			}
+			
+
+			.education
+			{
+				background:url(bg3.jpg)no-repeat;
+				height: 750px;
+				margin-top: 92px;
+				width: 1518px;
+			}
+			#education button
+			{
+				font-size: 40px;
+				margin-left: 650px;
+				color: rgb(250, 247, 247);
+				background-color:rgb(46, 64, 83);
+				margin-top :70px;
+				border-radius: 20px;
+				border: 4px solid rgb(246, 176, 91);
+			}
+			
+			#img2 img
+			{
+				height: 400px;
+				width: 350px;
+				border-radius: 10px;
+				margin-top: 100px;
+				margin-left: 20px;
+				transition: transform 0.5s;
+			}
+			#img2:hover img
+			{
+                transform: scale(1.1);
+				border-top-left-radius: 50px;
+				border-bottom-right-radius:50px;
+				color: darkred;
+			}
+
+			#img3 img
+			{
+				height: 400px;
+				width: 350px;
+				border-radius: 10px;
+				margin-top: -400px;
+				margin-left: 550px;
+		        transition: transform 0.5s;
+			}
+			#img3:hover img
+			{
+                transform: scale(0.9);
+				border-top-left-radius: 50px;
+				border-bottom-right-radius:50px;
+				color: darkred;
+			}
+			#img4 img
+			{
+				height: 400px;
+				width: 350px;
+				border-radius: 10px;
+				margin-top: -400px;
+				margin-left: 1100px;
+		        transition: transform 0.5s;
+			}
+			#img4:hover img
+			{
+                transform: scale(1.1);
+				border-top-left-radius: 50px;
+				border-bottom-right-radius:50px;
+				color: darkred;
+			}
+			.shadow
+			{
+				width: 300px;
+				height: 300px;
+				box-shadow: 10px 10px 20px;
+				color: darkorange;
+				border-radius: 10px solid;
+			}
+			.contact-me
+			{
+				background:rgb(207, 228, 244);
+				height: 730px;
+				margin-top: -10px;
+			}
+			
+			#contact-me button
+			{
+				font-size: 40px;
+				margin-left: 650px;
+				color: rgb(250, 247, 247);
+				background-color:rgb(46, 64, 83);
+				margin-top :40px;
+				border-radius: 20px;
+				border: 4px solid rgb(14, 14, 13);
+			}
+			#form form
+			{
+				margin-left: 1080px;
+				margin-top: -400px;
+	        }
+			#form form button
+			{
+				margin-left: 80px;
+				margin-top: 30px;
+				font-size: 20px;
+				color: #050202;
+				background-color: rgb(227, 227, 227);
+				border-radius: 10px;
+			}
+			#img5 img
+			{
+				margin-top: 60px;
+				margin-left: 1000px;
+				height: 450px;
+				width: 450px;
+				border: 5px solid black;
+			}
+			#map 
+			{
+				margin-top: -450px;
+				border: 3px #050202;
+				margin-left: 40px;
+			
+			}
+	        #map iframe
+			{
+				height: 450px;
+				width: 450px;
+				border: 5px solid black;
+			}
+			#address img
+			{
+				width: 100px;
+				height: 100px;
+				margin-left: 700px;
+				margin-top: -400px;
+				border-radius: 300px;
+			}
+			#address h1
+			{
+				color: rgb(2, 50, 80);
+				margin-top: -280px;
+				font-size: 50px;
+				margin-left: 670px;
+			}
+			#address h2
+			{
+				margin-left: 600px;
+				margin-top: -20px;
+			}
+			#address h3
+			{
+				margin-left: 650px;
+				font-size: 40px;
+				margin-top: -10px;
+			}
+			.icons .fa-brands
+			{
+                  color: black;
+				  font-size: 40px;
+     		}
+			.icons
+			{
+				display: flex;
+				gap: 40px;
+				align-items: center;
+				justify-content: center;
+
+			}
+			
